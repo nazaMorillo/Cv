@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+  overflow-wrap: break-word;
+}
+a {
+  text-decoration: none;
+}
+.btn a {
+  color: white;
+}
+
+p, h1, h2, h3 {
+  font-family: 'Questrial', sans-serif;
+}
+
+H2 {
+  margin: 10px 0 10px 0;
+}
+
+h3 {
+  margin: 15px 0 15px 0;
+}
+
+
+body {
+  background-image: linear-gradient(90deg, #000 15%, #ccc 85%);
+  background-color: #ccc;
+}
+
+hr {
+  width: 5em;
+  margin: 10px 0px 20px 0px;
+  border-color: #00cc;
+  border: 3px solid;
+  background-color: #00cc;
+  color: #00cc;
+}
+
+head {
+  display: flex;
+  justify-content: center;
+}
+.foto {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto img {
+  width:85%;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.9);
+  border-radius: 20px 0 20px 0;
+  border: 8px solid #fff;
+  align-self: center;
+}
+
+.izquierda {
+  background-image: linear-gradient(90deg, #000, #333);
+  color: #999;
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin:20px 0 20px 10%;
+  padding: 20px 0 20px 0;
+}
+
+.principal {
+  background-image: linear-gradient(90deg, #ccc 15%, #555 85%);
+  width: 50%;
+  float: right;
+  margin: 20px 10% 20px 0;
+  padding: 20px;
+  border-radius: 20px 0 20px 0;
+}
+
+.principal section p,.principal section li {
+  font-size: 1.4em;
+}
+
+ul.btn {
+  list-style: none;
+  border-radius: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
+  margin: 10px 10px;
+}
+
+ul.btn li {
+  margin: 10px 5px;
+  background-image: linear-gradient(90deg, #010164cc 15%, #4b4bdacc 85%);
+  padding: 8px 8px;
+  font-size: 1.1em;
+  text-indent: 1.5em;
+  border-radius: 20px 0 20px 0;
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.9);
+}
+ul.btn li a {
+  display: block;
+}
+
+ul.btn li a:hover {
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+}
+ul.btn li:hover {
+  background-color: rgba(255,255,255,1);
+  box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,1);
+}
+
+#datos ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+#datos {
+  padding: 20px 20px;
+}
+
+.redes{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.redes a {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.5);
+  border-radius: 20px 0 20px 0;
+  height: 100%;
+}
+
+.port ul li, .pasat ul li {
+  list-style: none;
+  display: wrap;
+}
+.port ul li img{
+  width: 33%;
+  float: left;
+}
+
+#pasatiempo {
+  height: 50vh;
+}
+
+.pasat ul li img {
+  float: left;
+  width: 20%;
+  margin: 2.5%;
+  background-color: #00a196;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
+}
+
+.volver {
+  text-indent: 1em;
+  margin-top: 40px;
+  font-size: 2em;
+  text-decoration-style: solid;
+}
